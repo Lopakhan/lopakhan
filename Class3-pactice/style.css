@@ -1,0 +1,185 @@
+/*Base CSS*/
+/*.alignleft{
+	float: left;
+	margin-right: 15px;
+}
+.alignright{
+	float: right;
+	margin-right: 15px;
+	}*/
+.aligncenter{
+	display: block;
+	margin: 0 auto 15px;
+}
+a:focus{outline: 0 solid}
+img{
+	max-width: 100px;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+a:hover{ text-decoration: none}
+
+.section-padding {padding: 80px 0;}
+
+
+
+/*Thyphography end*/
+
+
+
+
+body {
+    color:  #9c9e9e;
+}
+
+/*.video-area-bg{
+	background-image: url('images/alexfe-111684.jpg'); 
+	background-color: #ddd; 
+	background-position: center;
+	background-size: cover;
+	}
+
+.check-icon li:before {
+	font-family: fontAwesome;
+	content:"\f00c";
+	position: absolute;
+	left: 0;
+	top: 0;
+	}
+
+.video-area {
+  position: relative;
+}
+
+
+.video-area-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 45%;
+  box-shadow: 0 0 20px #888;
+}
+.video-play-btn {
+    position:  absolute;
+    right:  0;
+    top:  50%;
+    height:  100px;
+    width:  100px;
+    background:  #1fa463;
+    display:  inline-block;
+    text-align:  center;
+    color: #fff;
+    font-size:  30px;
+    line-height:  100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    margin-right: -50px;
+	padding-left: 7px;
+}
+h3 {
+    color:  #333;
+}
+
+.check{
+    margin:  0;
+    padding:  0;
+    list-style:  none;
+    font-size:  16px;
+    color: #666;
+}
+.check li {
+	padding-left: 32px;
+	position: relative;
+}
+
+/*.check li:before{
+	font-family: fontAwesome;
+	content: "\f00c";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.section_padding {
+  margin: 30px;
+}
+*/
+.video-area-bg{
+	background-image: url('images/alexfe-111684.jpg'); 
+	background-color: #ddd; 
+	background-position: center;
+	background-size: cover;
+	}
+.check-icon li:before {
+	font-family: fontAwesome;
+content:"\f00c";}
+
+.video-area {
+    position:  relative;
+    padding: 80px 0;
+}
+.video-area-bg {
+    position:  absolute;
+    left:  0;
+    top: 0;
+    height:  100%;
+    width:  42%;
+    box-shadow: 0 0 2px #888;
+}
+.video-play-btn {
+    position:  absolute;
+    right:  0;
+    top:  50%;
+    height:  100px;
+    width:  100px;
+    background:  #1fa463;
+    display:  inline-block;
+    text-align:  center;
+    color: #fff;
+    font-size:  30px;
+    line-height:  100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    margin-right: -50px;
+	padding-left: 7px;
+}
+
+
+h3 {
+    color: #333;
+}
+
+ul.check-icon {
+    margin:  0;
+    padding:  0;
+    list-style:  none;
+    font-size:  16px;
+    color:  #666;
+}
+
+.check-icon li {
+    position:  relative;
+    padding:  left;
+    padding-left:  32px;
+    padding-bottom:  10px;
+}
+
+.check-icon li:before {
+    position:  absolute;
+    left:  0;
+    top:  2px;
+    color:  #1fa463;
+}
